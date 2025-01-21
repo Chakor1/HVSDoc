@@ -3,7 +3,7 @@ title: Home
 ---
 <div class="md-grid">
   <div class="md-cell md-cell--4">
-    <a href="../HVS/HowToUse.md">
+    <a href="../docs/HowToUse.md">
       <div class="md-card">
         <div class="md-card__media md-card__media--16:9">
           <img src="../assets/images/tile1.jpg" alt="HVS User Guide" style="max-width: 100%; height: 200px; margin:0px auto;">
@@ -17,7 +17,7 @@ title: Home
   </div>
 
   <div class="md-cell md-cell--4">
-    <a href="../HVS/Page2.md">
+    <a href="../docs/Page2.md">
       <div class="md-card">
         <div class="md-card__media md-card__media--16:9">
           <img src="../assets/images/tile2.jpg" alt="HVS Admin Guide" style="max-width: 100%;">
@@ -31,7 +31,7 @@ title: Home
   </div>
 
   <div class="md-cell md-cell--4">
-    <a href="../HVS/Page3.md">
+    <a href="../docs/Page3.md">
       <div class="md-card">
         <div class="md-card__media md-card__media--16:9">
           <img src="../assets/images/tile3.jpg" alt="HVS Videos" style="max-width: 100%;">
@@ -44,8 +44,9 @@ title: Home
     </a>
   </div>
 
+
   <div class="md-cell md-cell--4">
-    <a href="../HVS/Page4.md">
+    <a href="../docs/Page4.md">
       <div class="md-card">
         <div class="md-card__media md-card__media--16:9">
           <img src="../assets/images/tile4.jpg" alt="Release Notes" style="max-width: 100%;">
