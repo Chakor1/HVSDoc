@@ -15,9 +15,8 @@ title: Home
       </div>
     </a>
   </div>
-
   <div class="md-cell md-cell--4">
-    <a href="../docs/Page2.md">
+    <a href="../HVS/Page2.md">
       <div class="md-card">
         <div class="md-card__media md-card__media--16:9">
           <img src="../assets/images/tile2.jpg" alt="HVS Admin Guide" style="max-width: 100%;">
@@ -31,7 +30,7 @@ title: Home
   </div>
 
   <div class="md-cell md-cell--4">
-    <a href="../docs/Page3.md">
+    <a href="../HVS/Page3.md">
       <div class="md-card">
         <div class="md-card__media md-card__media--16:9">
           <img src="../assets/images/tile3.jpg" alt="HVS Videos" style="max-width: 100%;">
@@ -45,8 +44,9 @@ title: Home
   </div>
 
 
+
   <div class="md-cell md-cell--4">
-    <a href="../docs/Page4.md">
+    <a href="../HVS/Page4.md">
       <div class="md-card">
         <div class="md-card__media md-card__media--16:9">
           <img src="../assets/images/tile4.jpg" alt="Release Notes" style="max-width: 100%;">
