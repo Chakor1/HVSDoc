@@ -57,7 +57,6 @@ title: Home
       </div>
     </a>
   </div>
-</div>
 
 <style>
 .md-grid {
