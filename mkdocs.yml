@@ -23,7 +23,8 @@ theme:
     # - ..assets/javascripts/bootstrap.min.js   
   language: en
   extra:
-    generator: false
+    footer:
+      generator: false
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
