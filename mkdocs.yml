@@ -23,6 +23,7 @@ theme:
   language: en
   extra:
     footer:
+      copyright: "Copyright &copy; 2023 Hitachi Visualization Suite"
       generator: false
   palette:
     # Palette toggle for automatic mode
