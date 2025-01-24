@@ -24,7 +24,6 @@ theme:
   language: en
   extra:
     generator: false
-    footer: "© 2021 Hitachi Vantara. All rights reserved."
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
