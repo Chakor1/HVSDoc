@@ -1,4 +1,5 @@
 footer {
-    display: block;  /* Ensure the footer displays as a block */
-    padding: 1rem;  /* Add some padding for spacing */
-  }
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+}
