@@ -16,6 +16,7 @@ theme:
     - toc.follow
     - toc.integrate
     - navigation.expand
+    # - navigation.footer
   # extra_css:
     #  - ..assets/stylesheets/custom_footer.css  
   # extra_javascript:
