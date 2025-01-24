@@ -18,6 +18,11 @@ theme:
     - navigation.expand
     - navigation.footer
 
+  extra:
+    footer:
+      text:  # Customize the footer text here
+        left: "© 2025 Hitachi Vantara, LLC. All rights reserved."
+        right: "<a href='https://www.hitachivantara.com/en-us/legal'>Terms of Use</a> and <a href='https://www.hitachivantara.com/en-us/legal/privacy'>Privacy Policy</a> and <a href='https://www.hitachivantara.com/en-us/legal'>Legal</a>"
   # extra_css:
   #    - ..assets/stylesheets/extra.css
   #    - ..assets/stylesheets/bootstrap.min.css  
@@ -26,11 +31,11 @@ theme:
     # - ..assets/javascripts/bootstrap.min.js   
   language: en
   theme:
-  extra:
-    footer:
-      text:  # Customize the footer text here
-        left: "© 2025 Hitachi Vantara, LLC. All rights reserved."
-        right: "<a href='https://www.hitachivantara.com/en-us/legal'>Terms of Use</a> and <a href='https://www.hitachivantara.com/en-us/legal/privacy'>Privacy Policy</a> and <a href='https://www.hitachivantara.com/en-us/legal'>Legal</a>"
+    extra:
+      footer:
+        text:  # Customize the footer text here
+          left: "© 2025 Hitachi Vantara, LLC. All rights reserved."
+          right: "<a href='https://www.hitachivantara.com/en-us/legal'>Terms of Use</a> and <a href='https://www.hitachivantara.com/en-us/legal/privacy'>Privacy Policy</a> and <a href='https://www.hitachivantara.com/en-us/legal'>Legal</a>"
   palette:
 
     # Palette toggle for automatic mode
