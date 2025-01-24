@@ -1,0 +1,4 @@
+footer {
+    display: block;  /* Ensure the footer displays as a block */
+    padding: 1rem;  /* Add some padding for spacing */
+  }

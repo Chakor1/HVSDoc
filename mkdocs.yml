@@ -22,14 +22,13 @@ theme:
   #    - ..assets/stylesheets/extra.css
   #    - ..assets/stylesheets/bootstrap.min.css  
 
-  extra_javascript:
-    - ..assets/javascripts/bootstrap.min.js   
+  # extra_javascript:
+    # - ..assets/javascripts/bootstrap.min.js   
   language: en
   theme:
   extra:
-  - footer:
-      text: 
-        # Customize the footer text here
+    footer:
+      text:  # Customize the footer text here
         left: "© 2025 Hitachi Vantara, LLC. All rights reserved."
         right: "<a href='https://www.hitachivantara.com/en-us/legal'>Terms of Use</a> and <a href='https://www.hitachivantara.com/en-us/legal/privacy'>Privacy Policy</a> and <a href='https://www.hitachivantara.com/en-us/legal'>Legal</a>"
   palette:
@@ -57,5 +56,4 @@ theme:
     
   
   plugins: 
-  - pdf-export:
-      combined: false
+  - mkdocs-material-extensions
