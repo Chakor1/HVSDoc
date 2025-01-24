@@ -17,48 +17,31 @@ theme:
     - toc.integrate
     - navigation.expand
     - navigation.footer
-
-  extra:
-    footer:
-      text:  # Customize the footer text here
-        left: "© 2025 Hitachi Vantara, LLC. All rights reserved."
-        right: "<a href='https://www.hitachivantara.com/en-us/legal'>Terms of Use</a> and <a href='https://www.hitachivantara.com/en-us/legal/privacy'>Privacy Policy</a> and <a href='https://www.hitachivantara.com/en-us/legal'>Legal</a>"
   # extra_css:
   #    - ..assets/stylesheets/extra.css
   #    - ..assets/stylesheets/bootstrap.min.css  
-
   # extra_javascript:
     # - ..assets/javascripts/bootstrap.min.js   
   language: en
-  theme:
-    extra:
-      footer:
-        text:  # Customize the footer text here
-          left: "© 2025 Hitachi Vantara, LLC. All rights reserved."
-          right: "<a href='https://www.hitachivantara.com/en-us/legal'>Terms of Use</a> and <a href='https://www.hitachivantara.com/en-us/legal/privacy'>Privacy Policy</a> and <a href='https://www.hitachivantara.com/en-us/legal'>Legal</a>"
+  extra:
+    footer: "© 2021 Hitachi Vantara. All rights reserved."
   palette:
-
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
-
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default 
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
- 
-    
-  
   plugins: 
   - mkdocs-material-extensions
