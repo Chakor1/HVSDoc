@@ -18,12 +18,12 @@ theme:
     - navigation.expand
     - navigation.footer
   # extra_css:
-  #    - ..assets/stylesheets/extra.css
-  #    - ..assets/stylesheets/bootstrap.min.css  
+    #  - ..assets/stylesheets/custom_footer.css  
   # extra_javascript:
     # - ..assets/javascripts/bootstrap.min.js   
   language: en
   extra:
+    generator: false
     footer: "© 2021 Hitachi Vantara. All rights reserved."
   palette:
     # Palette toggle for automatic mode
@@ -45,3 +45,4 @@ theme:
         name: Switch to system preference
   plugins: 
   - mkdocs-material-extensions
+  - search
