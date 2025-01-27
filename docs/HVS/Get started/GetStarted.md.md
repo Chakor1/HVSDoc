@@ -13,11 +13,13 @@ You must reset the user account password in the following scenarios:
 - User account is created.
 - User account expired.
 - User account is locked.
-- Forgot user account credentials.<p>Perform the following steps to reset the password:
+- Forgot user account credentials.<p>
+
+Perform the following steps to reset the password:
 
 ### Procedure
 
-1. Click **Forgot your credentials?** in the Hitachi Visualization Suite login window.<br>![loginpage](../assets/images/loginpage.png)
+1. Click **Forgot your credentials?** in the Hitachi Visualization Suite login window.<br>![loginpage](../HVSDoc/docs/assets/images/loginpage.png)
 
 <br>The **Recover Credentials** page appears.
 
