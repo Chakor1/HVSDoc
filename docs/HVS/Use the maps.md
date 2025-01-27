@@ -8,3 +8,17 @@ click the camera entity, HVS displays the map markers related to all cameras on 
 remove the map markers from the map view, click camera again.
 You can use the left pane to filter the map markers on the map view. To get quick information
 about an entity in the InfoWindow, click the map marker.
+
+## Map view
+
+The map view includes several key components to help you visualize every entity in HVS.<br> ![map view](../HVS/assets/images/MapView.png)<br> 
+
+| Items     | Description                                                  |
+| --------- | ------------------------------------------------------------ |
+| Left pane | Contains the entity types and menu items. A few entities in the entity type show heat map and view detail icons.<br>Expand the entity type and select the entity you want to display on the map:<br><ul> <li> Events: Displays events that can occur suddenly, such as gunshots or 911 calls under different event types.</li><li>Incidents: Displays incidents that impact normalcy of business operations.</li><li>Inspections: Displays inspections created for monitoring infrastructure.</li><li>Objects: Displays the stationary items, such as buildings and cameras.</li><li>Heat map icon: Shows the intensity of<br/>the entity.<br/>■ View Details icon: Takes you to the entity<br/>detail page.<br/>■ Maps and Layers: Displays the available<br/>layers and map options such as ESRI,<br/>Google Maps configured in the system.<br/>■ Settings: Displays the settings that are<br/>available for configuration based on your<br/>access permissions. For example,<br/>domains, memberships, audit, and<br/>others.<br/>■ Timeline: Displays historical data for the<br/>events. |
+|           |                                                              |
+|           |                                                              |
+|           |                                                              |
+|           |                                                              |
+|           |                                                              |
+
