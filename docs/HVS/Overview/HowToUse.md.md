@@ -20,7 +20,7 @@ and analyzing the data can be a challenging task. Visualization Suite provides a
 of glass” for geospatial visualization to gain the situational awareness required to better
 respond to problems or even prevent them from occurring. 
 
-![Using visualization suite](../assets/images/Using visualization suite.png)
+![Using visualization suite](..docs/assets/images/UsingVisualizationSuite.png)
 
 ## Cloud and on-premises solutions
 
