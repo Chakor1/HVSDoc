@@ -36,12 +36,12 @@ Perform the following steps to reset the password:
 
    ![email](../assets/images/manageaccountemail.png)
 
-5. Click **Reset Password** link or copy the link and paste it into a browser.<br>
+   1. Click **Reset Password** link or copy the link and paste it into a browser.<br>
 
    > **Note:** The reset password process automatically expires after a period of
    > time. Default time is 5 minutes.
 
-6. Enter **New Password**, then enter **Confirm Password**. Provide a password that meets
-   with Visualization Suite password policy.
+   1. Enter **New Password**, then enter **Confirm Password**. Provide a password that meets
+      with Visualization Suite password policy.
 
-7. Click **Recover** and access the Visualization Suite application.
+   1. Click **Recover** and access the Visualization Suite application.
