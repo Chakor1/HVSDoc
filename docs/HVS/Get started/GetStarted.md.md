@@ -19,7 +19,7 @@ Perform the following steps to reset the password:
 
 ### Procedure
 
-1. Click **Forgot your credentials?** in the Hitachi Visualization Suite login window.<br>![loginpage](../assets/images/loginpage.PNG)
+1. Click **Forgot your credentials?** in the Hitachi Visualization Suite login window.<br>![](../assets/images/loginpage.PNG)
 
 <br>The **Recover Credentials** page appears.
 
