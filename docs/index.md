@@ -6,7 +6,7 @@ title: Home
     <a href="../HVS/Overview/HowToUse.md">
       <div class="md-card">
         <div class="md-card__media md-card__media--16:9">
-          <img src="../assets/images/tile1.jpg" alt="HVS User Guide" style="max-width: 100%; height: 200px; margin:0px auto;">
+          <img src="..HVS/assets/images/tile1.jpg" alt="HVS User Guide" style="max-width: 100%; height: 200px; margin:0px auto;">
         </div>
         <div class="md-card__content">
           <h2 class="md-card__title">HVS User Guide</h2>
@@ -19,7 +19,7 @@ title: Home
     <a href="../HVS/Page2.md">
       <div class="md-card">
         <div class="md-card__media md-card__media--16:9">
-          <img src="../assets/images/tile2.jpg" alt="HVS Admin Guide" style="max-width: 100%;">
+          <img src="..HVS/assets/images/tile2.jpg" alt="HVS Admin Guide" style="max-width: 100%;">
         </div>
         <div class="md-card__content">
           <h2 class="md-card__title">Admin Guide</h2>
@@ -33,7 +33,7 @@ title: Home
     <a href="../HVS/Page3.md">
       <div class="md-card">
         <div class="md-card__media md-card__media--16:9">
-          <img src="../assets/images/tile3.jpg" alt="HVS Videos" style="max-width: 100%;">
+          <img src="..HVS/assets/images/tile3.jpg" alt="HVS Videos" style="max-width: 100%;">
         </div>
         <div class="md-card__content">
           <h2 class="md-card__title">Demo videos</h2>
@@ -49,7 +49,7 @@ title: Home
     <a href="../HVS/Page4.md">
       <div class="md-card">
         <div class="md-card__media md-card__media--16:9">
-          <img src="../assets/images/tile4.jpg" alt="Release Notes" style="max-width: 100%;">
+          <img src="..HVS/assets/images/tile4.jpg" alt="Release Notes" style="max-width: 100%;">
         </div>
         <div class="md-card__content">
           <h2 class="md-card__title">Release Notes</h2>
