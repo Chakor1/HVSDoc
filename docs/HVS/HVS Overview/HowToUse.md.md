@@ -1,4 +1,4 @@
-# HVS User guide
+# Introduction
 The guide describes the features of Hitachi Visualization Suite and provides step-by-step
 instructions for using it.
 
@@ -194,7 +194,7 @@ Suite gives end-to-end, adaptable, and intelligent solutions for smart cities. T
 use integration of big data, including video feeds, event data, and social media, to give realtime
 analytics that public safety officials can act on.<br>
 
-![](../assets/images/EndtoendITsolutionforsmartcities.png)<br>
+![End to end IT solution for smart cities](../assets/images/EndtoendITsolutionforsmartcities.png)<br>
 
 All solution components in the Smart Spaces and Video Intelligence solution stack are
 modular, functioning as building blocks for smart cities. They help all areas and organizations
