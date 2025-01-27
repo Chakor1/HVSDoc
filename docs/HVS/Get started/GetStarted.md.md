@@ -9,11 +9,12 @@ After resetting the password, you can access the Visualization Suite application
 ## Password reset
 
 You must reset the user account password in the following scenarios:
+
 - User account is created.
 - User account expired.
 - User account is locked.
-- Forgot user account credentials.
-Perform the following steps to reset the password:
+- Forgot user account credentials.<br>
+  Perform the following steps to reset the password:
 
 ### Procedure
 
