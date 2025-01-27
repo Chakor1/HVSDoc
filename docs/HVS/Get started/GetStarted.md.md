@@ -13,8 +13,7 @@ You must reset the user account password in the following scenarios:
 - User account is created.
 - User account expired.
 - User account is locked.
-- Forgot user account credentials.<br>
-  Perform the following steps to reset the password:
+- Forgot user account credentials.<p>Perform the following steps to reset the password:
 
 ### Procedure
 
