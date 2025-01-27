@@ -27,21 +27,16 @@ Perform the following steps to reset the password:
    specified email address.
 
 4.  Check your inbox for the email.<br>
-
    > **Note:** If you do not receive the confirmation message within a few minutes
    > of submission, check your **Junk E-mail** folder to see if the confirmation
    > email was delivered to that folder instead of your inbox. If yes, select the
    > confirmation message and click **Not Junk** to receive future messages
    > directly in your inbox.
 
-   ![email](../assets/images/manageaccountemail.png)
-
-5. Click **Reset Password** link or copy the link and paste it into a browser.<br>
-
+   ![email](../assets/images/manageaccountemail.png)<br>
+5. Click **Reset Password** link or copy the link and paste it into a browser.
    > **Note:** The reset password process automatically expires after a period of
-   > time. Default time is 5 minutes.
-
+   > time. Default time is 5 minutes.<br>
 6. Enter **New Password**, then enter **Confirm Password**. Provide a password that meets
       with Visualization Suite password policy.
-
 7. Click **Recover** and access the Visualization Suite application.
