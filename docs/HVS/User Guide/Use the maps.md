@@ -30,3 +30,8 @@ You can show all or only select entity types on the map. For example, you may on
 
 1. Click **Map**.
 2. From the left pane, expand the required entity types, and select one or more entities you want to display on the map.
+
+
+
+## Use InfoWindows
+
