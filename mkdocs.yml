@@ -16,11 +16,11 @@ theme:
     - toc.follow
     - toc.integrate
     - navigation.expand
-    # - navigation.footer
-  # extra_css:
-    #  - ..assets/stylesheets/custom_footer.css  
-  # extra_javascript:
-    # - ..assets/javascripts/bootstrap.min.js   
+    - navigation.footer
+  extra_css:
+    - docs/stylesheets/extra.css  
+  extra_javascript:
+    - docs/stylesheets/bootstrap.min.js   
   language: en
   extra:
     footer:
