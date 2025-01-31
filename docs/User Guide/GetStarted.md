@@ -42,3 +42,4 @@ Perform the following steps to reset the password:
 6. Enter **New Password**, then enter **Confirm Password**. Provide a password that meets
       with Visualization Suite password policy.<br>
 7. Click **Recover** and access the Visualization Suite application.
+
