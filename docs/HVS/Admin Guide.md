@@ -25,18 +25,17 @@ Extract the HVS IDM installation package as follows:<br>
 
 **Procedure:**
 
-1. SSH to the linux server where you have downloaded the installation package:
+1. SSH to the linux server where you have downloaded the installation package:<br>
 
    ```
    ssh USERNAME@IP_ADDRESS
    ```
 
-2. Create a new directory, <code>hvs-im</code> and extract the contents of the installation package to
-   that directory:
+2. Create a new directory, <code>hvs-im</code> and extract the contents of the installation package to that directory:
 
    ```
    mkdir ~/hvs-im
    tar -zxvf package_name -C ~/hvs-im
    ```
 
-3. The following image depicts the sample structure after extraction:<br><img src="../HVS/assets/images/samplestructure.png" alt="samplestructure" style="zoom:50%;" />
+   The following image depicts the sample structure after extraction:<br><img src="../HVS/assets/images/samplestructure.png" alt="samplestructure" style="zoom:75%;" />
