@@ -30,14 +30,14 @@ title: Home
   </div>
 
   <div class="md-cell md-cell--4">
-    <a href="../HVS/Demo videos">
+    <a href="../HVS/Installation Guide">
       <div class="md-card">
         <div class="md-card__media md-card__media--16:9">
           <img src="../HVS/assets/images/tile3.jpg" alt="HVS Videos" style="max-width: 100%;">
         </div>
         <div class="md-card__content">
-          <h2 class="md-card__title">Demo videos</h2>
-          <p class="md-card__description">This tile belongs to HVS walkthrough videos</p>
+          <h2 class="md-card__title">Installation Guide</h2>
+          <p class="md-card__description">This tile belongs to HVS installation guide</p>
         </div>
       </div>
     </a>
