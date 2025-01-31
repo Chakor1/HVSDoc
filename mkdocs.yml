@@ -3,6 +3,8 @@ theme:
   name: material
   favicon: HVS/assets/images/favicon.ico
   logo: HVS/assets/images/logo.png
+    logo_height: 1200  # Add this line to set the logo height
+    logo_width: auto  # Add this line to set the logo width
   features:
     - navigation.tabs
     - navigation.sections
