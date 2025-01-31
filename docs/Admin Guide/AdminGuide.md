@@ -40,4 +40,4 @@ mkdir ~/hvs-im
 tar -zxvf package_name -C ~/hvs-im
 ```
 
-The following image depicts the sample structure after extraction:<br><img src="../HVS/assets/images/samplestructure.png" alt="samplestructure" style="zoom:75%;" /></li></ol>
+</li></ol>
