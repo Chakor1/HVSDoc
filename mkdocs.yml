@@ -21,7 +21,7 @@ theme:
   extra_css:
     - docs/stylesheets/extra.css  
   extra_javascript:
-    - docs/stylesheets/bootstrap.min.js   
+    - custom.js   
   language: en
   extra:
     footer:
