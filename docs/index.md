@@ -80,3 +80,5 @@ title: Home
 }
 </style>
 
+<script src="custom.js"></script>
+</body>
