@@ -1,19 +1,19 @@
-> Hitachi Visualization Suite API allows integrators and users to
-> interact with the Visualization Suite system using a standard REST
-> API. You can find the available APIs in the built-in Swagger API user
-> interface (UI) or using your preferred REST client application.
+Hitachi Visualization Suite API allows integrators and users to
+interact with the Visualization Suite system using a standard REST
+API. You can find the available APIs in the built-in Swagger API user
+interface (UI) or using your preferred REST client application.
 
 # API overview
 
-> Hitachi Visualization Suite API allows integrators and users to
-> interact with the Visualization Suite system using a standard REST
-> API. You can find the available APIs in the built-in Swagger API user
-> interface (UI) or using your preferred REST client application.
+Hitachi Visualization Suite API allows integrators and users to
+interact with the Visualization Suite system using a standard REST
+API. You can find the available APIs in the built-in Swagger API user
+interface (UI) or using your preferred REST client application.
 >
-> Use the following link to access the Visualization Suite API
-> documentation in Swagger.
+Use the following link to access the Visualization Suite API
+documentation in Swagger.
 >
-> https://\<HVS API instance\>/swagger/index.html
+https://\<HVS API instance\>/swagger/index.html
 
 - Visualization Suite Production Cloud
   [<u>https://api.hitachismartcamera.com/swagger/</u>](https://api.hitachismartcamera.com/swagger/index.html)
@@ -22,35 +22,35 @@
 - Visualization Suite Staging Cloud
   [<u>https://api.hitachismartcamera.com/swagger/index.html</u>](https://api.hitachismartcamera.com/swagger/index.html)
 
-> For more information about the Swagger OpenAPI 2.0, see
-> [<u>https://swagger.io/docs/</u>](https://swagger.io/docs/specification/about/)
-> [<u>specification/about/</u>](https://swagger.io/docs/specification/about/)
+For more information about the Swagger OpenAPI 2.0, see
+[<u>https://swagger.io/docs/</u>](https://swagger.io/docs/specification/about/)
+[<u>specification/about/</u>](https://swagger.io/docs/specification/about/)
 >
-> For more information, see the Visualization Suite Web API Installation
-> section in the Installation Guide.
+For more information, see the Visualization Suite Web API Installation
+section in the Installation Guide.
 
 <img src="media/image1.png" style="width:5.66344in;height:3.08437in" />
 
 # Authentication and authorization
 
-> Visualization Suite API uses the open standard JSON Web Token (JWT) to
-> provide a compact and self-contained way for transmitting information
-> and uses Bearer authentication, also called token authentication is an
-> HTTP authentication scheme that involves security tokens called bearer
-> tokens.
+Visualization Suite API uses the open standard JSON Web Token (JWT) to
+provide a compact and self-contained way for transmitting information
+and uses Bearer authentication, also called token authentication is an
+HTTP authentication scheme that involves security tokens called bearer
+tokens.
 >
-> **Note:** The Visualization Suite v6.4 REST API no longer accepts the
-> user account. It only accepts the service account.
+**Note:** The Visualization Suite v6.4 REST API no longer accepts the
+user account. It only accepts the service account.
 
 # Authorize request
 
-> Before making any requests, click Authorize to authorize your session
-> and complete the information in the **Authorization** screen:
+Before making any requests, click Authorize to authorize your session
+and complete the information in the **Authorization** screen:
 
 <img src="media/image3.png" style="width:5.75333in;height:2.95333in" />
 
-> To receive the Bearer schema, use authenticate method under
-> **Authorization**.
+To receive the Bearer schema, use authenticate method under
+**Authorization**.
 
 <img src="media/image4.png" style="width:5.75333in;height:0.26667in" />
 
@@ -62,8 +62,8 @@
 
 2.  Click **Try it out**.
 
-> Upon click, the example value in the **Request Body** field becomes
-> editable.
+Upon click, the example value in the **Request Body** field becomes
+editable.
 
 3.  Make necessary changes.
 
@@ -71,25 +71,25 @@
 
 ### Result
 
-> Swagger UI submits the request and shows the curl that was submitted.
-> The Responses section shows the response.
+Swagger UI submits the request and shows the curl that was submitted.
+The Responses section shows the response.
 >
-> If you select JSON rather than XML in the Response content type list,
-> you can specify that JSON is returned rather than XML.
+If you select JSON rather than XML in the Response content type list,
+you can specify that JSON is returned rather than XML.
 
 # Modify entities
 
-> The PATCH verb is a type of HTTP request method for applying partial
-> changes to an existing resource.
+The PATCH verb is a type of HTTP request method for applying partial
+changes to an existing resource.
 >
-> To standardize the way the server expects these changes, JSON PATCH
-> standard has been created on top of PATCH verb.
+To standardize the way the server expects these changes, JSON PATCH
+standard has been created on top of PATCH verb.
 >
-> You can enter a body parameter containing a list of operations
-> describing the changes that must be applied in the specified order to
-> the specified resource.
+You can enter a body parameter containing a list of operations
+describing the changes that must be applied in the specified order to
+the specified resource.
 >
-> The following are the supported operations:
+The following are the supported operations:
 
 - add
 
@@ -103,14 +103,14 @@
 
 ## API
 
-> PATCH will be available at the same route of PUT verb.
+PATCH will be available at the same route of PUT verb.
 
 ## Update name, description, and timestamp
 
-> The "add" and "replace" operations are interchangeable in this
-> scenario because they will update the field to the new value.
+The "add" and "replace" operations are interchangeable in this
+scenario because they will update the field to the new value.
 >
-> If we start from the simplest entity that we can create:
+If we start from the simplest entity that we can create:
 
 {
 
@@ -118,13 +118,13 @@
 
 }
 
-> and then we apply this patch operation:
+and then we apply this patch operation:
 
 \[
 
 { "op": "add", "path": "name", "value": "New name" }
 
-> The entity will look like:
+The entity will look like:
 
 {
 
@@ -132,11 +132,11 @@
 
 }
 
-> You can send many operations at a time and execute them one after the
-> other.
+You can send many operations at a time and execute them one after the
+other.
 >
-> In the following sample, the patch request will initialize or update
-> name, description and timestamp fields as specified in the array.
+In the following sample, the patch request will initialize or update
+name, description and timestamp fields as specified in the array.
 
 \[
 
@@ -150,13 +150,13 @@
 
 ## Update tags
 
-> Patch allow also to manage even arrays like tags.
+Patch allow also to manage even arrays like tags.
 >
-> Note that before adding an item into an array it needs to be
-> initialized first.
+Note that before adding an item into an array it needs to be
+initialized first.
 >
-> In the following sample, you are first initializing the tags array and
-> then adding on tag at a time.
+In the following sample, you are first initializing the tags array and
+then adding on tag at a time.
 
 \[
 
@@ -168,7 +168,7 @@
 
 \]
 
-> You can directly define the array items like in the following sample:
+You can directly define the array items like in the following sample:
 
 \[
 
@@ -178,7 +178,7 @@
 
 \]
 
-> Initialize location of an entity can be done using the following
+Initialize location of an entity can be done using the following
 
 \[
 
@@ -188,9 +188,9 @@
 
 "path": "location", "value":{
 
-> "type":"Point",
+"type":"Point",
 >
-> "coordinates": \[9.2343, 40.23434\]
+"coordinates": \[9.2343, 40.23434\]
 
 }
 
@@ -198,7 +198,7 @@
 
 \]
 
-> While update is possible with just
+While update is possible with just
 
 \[
 
@@ -214,12 +214,12 @@
 
 ## Update attributes
 
-> Attributes can be initialized using the following command:
+Attributes can be initialized using the following command:
 
 \[
 
-> You can replace the value of one of the existing attributes by using
-> the following command:
+You can replace the value of one of the existing attributes by using
+the following command:
 
 {
 
@@ -227,23 +227,23 @@
 
 "path": "attributes", "value": {
 
-> "key_number_1":{ "label": "Key \#1",
+"key_number_1":{ "label": "Key \#1",
 >
-> "value":"value1"
+"value":"value1"
 >
-> },
+},
 >
-> "key_number_2":{ "label": "Key \#2", "value":true
+"key_number_2":{ "label": "Key \#2", "value":true
 >
-> },
+},
 >
-> "key_number_3":{ "label": "Key \#3", "value":{
+"key_number_3":{ "label": "Key \#3", "value":{
 >
-> "complex_object": true
+"complex_object": true
 >
-> }
+}
 >
-> }
+}
 
 }
 
@@ -257,8 +257,8 @@
 
 "op": "replace",
 
-> As described in this issue page,adding a single attribute from scratch
-> will not work untill Asp.Net Core 2.1 is released.
+As described in this issue page,adding a single attribute from scratch
+will not work untill Asp.Net Core 2.1 is released.
 
 "path": "attributes/key_number_1/value",
 
@@ -268,4 +268,4 @@
 
 \]
 
-> [<u>https://github.com/aspnet/JsonPatch/issues/96</u>](https://github.com/aspnet/JsonPatch/issues/96)
+[<u>https://github.com/aspnet/JsonPatch/issues/96</u>](https://github.com/aspnet/JsonPatch/issues/96)
