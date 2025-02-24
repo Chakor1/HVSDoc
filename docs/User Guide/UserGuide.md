@@ -3,18 +3,18 @@
 
 # Overview
 
-> Hitachi Visualization Suite is a state-of-the-art software solution
-> that provides geospatial mapping of data from multiple sources to
-> provide operational insights. Visualization Suite provides
-> comprehensive integration capabilities with video and data devices,
-> analytics, and private entities. The integrated event data is
-> visualized over the map for easy access to real- time data.
->
-> Visualization Suite integrates with all major law enforcement systems,
-> including third-party video management systems, computer-aided
-> dispatch (CAD) or 911 systems, license plate readers, gun-shot
-> detection, and third-party sensors. This solution benefits both public
-> safety officials and private entities.
+Hitachi Visualization Suite is a state-of-the-art software solution
+that provides geospatial mapping of data from multiple sources to
+provide operational insights. Visualization Suite provides
+comprehensive integration capabilities with video and data devices,
+analytics, and private entities. The integrated event data is
+visualized over the map for easy access to real- time data.
+
+Visualization Suite integrates with all major law enforcement systems,
+including third-party video management systems, computer-aided
+dispatch (CAD) or 911 systems, license plate readers, gun-shot
+detection, and third-party sensors. This solution benefits both public
+safety officials and private entities.
 
 ## Geospatial visualization of data from multiple sources
 
