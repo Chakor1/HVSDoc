@@ -3,86 +3,86 @@
 
 # Overview
 
-> Hitachi Visualization Suite is a state-of-the-art software solution
-> that provides geospatial mapping of data from multiple sources to
-> provide operational insights. Visualization Suite provides
-> comprehensive integration capabilities with video and data devices,
-> analytics, and private entities. The integrated event data is
-> visualized over the map for easy access to real- time data.
->
-> Visualization Suite integrates with all major law enforcement systems,
-> including third-party video management systems, computer-aided
-> dispatch (CAD) or 911 systems, license plate readers, gun-shot
-> detection, and third-party sensors. This solution benefits both public
-> safety officials and private entities.
+Hitachi Visualization Suite is a state-of-the-art software solution
+that provides geospatial mapping of data from multiple sources to
+provide operational insights. Visualization Suite provides
+comprehensive integration capabilities with video and data devices,
+analytics, and private entities. The integrated event data is
+visualized over the map for easy access to real- time data.
+
+Visualization Suite integrates with all major law enforcement systems,
+including third-party video management systems, computer-aided
+dispatch (CAD) or 911 systems, license plate readers, gun-shot
+detection, and third-party sensors. This solution benefits both public
+safety officials and private entities.
 
 ## Geospatial visualization of data from multiple sources
 
-> In today’s digitized world, both public and private organizations must
-> analyze a large amount of data coming from a multitude of sources. For
-> these organizations, accessing, correlating, and analyzing the data
-> can be a challenging task. Visualization Suite provides a “single pane
-> of glass” for geospatial visualization to gain the situational
-> awareness required to better respond to problems or even prevent them
-> from occurring.
+In today’s digitized world, both public and private organizations must
+analyze a large amount of data coming from a multitude of sources. For
+these organizations, accessing, correlating, and analyzing the data
+can be a challenging task. Visualization Suite provides a “single pane
+of glass” for geospatial visualization to gain the situational
+awareness required to better respond to problems or even prevent them
+from occurring.
 
 <img src="media/image1.png" style="width:5.4375in;height:3.015in" />
 
 ## Cloud and on-premises solutions
 
-> Visualization Suite offers multiple deployment options. You can use
-> Visualization Suite as software as a service (SaaS), software deployed
-> on premises, or hybrid to match your IT infrastructure strategy.
+Visualization Suite offers multiple deployment options. You can use
+Visualization Suite as software as a service (SaaS), software deployed
+on premises, or hybrid to match your IT infrastructure strategy.
 
 ## Video surveillance interoperability
 
-> The Visualization Suite video connectors allow you to integrate with
-> the existing video management systems (VMSs) and Hitachi Video
-> Management Software (HVMS), which gives a comprehensive, all-in-one
-> solution that simplifies video system deployment and management.
+The Visualization Suite video connectors allow you to integrate with
+the existing video management systems (VMSs) and Hitachi Video
+Management Software (HVMS), which gives a comprehensive, all-in-one
+solution that simplifies video system deployment and management.
 
 ## Intelligent inspections
 
-> Hitachi Intelligent Infrastructure Monitoring (HIIM) solution helps in
-> remote inspection and monitoring of infrastructures. HIIM includes
-> thermal and visual spectrum cameras, rugged computers, edge and cloud
-> applications, video and data analytics, and HVS inspection engine
-> service.
->
-> The HIIM solution is integrated with HVS using the **Inspection
-> Automation** feature.
->
-> HIIM automates remote monitoring tasks, including temperature
-> tracking, digital and analog gauge readings, and overall health. It
-> ensures that critical components function optimally and within normal
-> operating ranges. This real-time monitoring helps identify potential
-> issues before they escalate into major problems, thereby minimizing
-> downtime and enhancing infrastructure safety and efficiency.
->
-> For more information, see <u>Administer intelligent inspections (on
-> page 82)</u>.
+Hitachi Intelligent Infrastructure Monitoring (HIIM) solution helps in
+remote inspection and monitoring of infrastructures. HIIM includes
+thermal and visual spectrum cameras, rugged computers, edge and cloud
+applications, video and data analytics, and HVS inspection engine
+service.
+
+The HIIM solution is integrated with HVS using the **Inspection
+Automation** feature.
+
+HIIM automates remote monitoring tasks, including temperature
+tracking, digital and analog gauge readings, and overall health. It
+ensures that critical components function optimally and within normal
+operating ranges. This real-time monitoring helps identify potential
+issues before they escalate into major problems, thereby minimizing
+downtime and enhancing infrastructure safety and efficiency.
+
+For more information, see <u>Administer intelligent inspections (on
+page 82)</u>.
 
 ## Incident management and Standard Operating Procedure (SOP)
 
-> An incident is an event that is unplanned and can adversely affect an
-> organization and its business. For example, flooding of a building,
-> fire accident, or system failure.
->
-> Incident management in Visualization Suite enables you to create a
-> process that can help in restoring the normalcy within the designated
-> SLA and, thereby minimize the impact on the business operations.
->
-> You can classify incidents into the right incident type and manage
-> incidents based on the assigned priority, severity, and SOPs. See
-> <u>Manage incidents (on page 91)</u> for more information.
->
-> Visualization Suite allows you to create SOPs or guided responses for
-> every incident type. These step-by-step instructions help workers
-> responsible for incident management to carry out the routine
-> operations while following the necessary protocols. SOPs helps to
-> achieve efficiency and uniformity in performance, while reducing
-> miscommunication. See <u>Standard</u> <u>Operating Procedure (on page
-> 93)</u> for more information.
+An incident is an event that is unplanned and can adversely affect an
+organization and its business. For example, flooding of a building,
+fire accident, or system failure.
+
+Incident management in Visualization Suite enables you to create a
+process that can help in restoring the normalcy within the designated
+SLA and, thereby minimize the impact on the business operations.
+
+You can classify incidents into the right incident type and manage
+incidents based on the assigned priority, severity, and SOPs. See
+<u>Manage incidents (on page 91)</u> for more information.
+
+Visualization Suite allows you to create SOPs or guided responses for
+every incident type. These step-by-step instructions help workers
+responsible for incident management to carry out the routine
+operations while following the necessary protocols. SOPs helps to
+achieve efficiency and uniformity in performance, while reducing
+miscommunication. See <u>Standard</u> <u>Operating Procedure (on page
+93)</u> for more information.
 
 ## Dashboards
 
@@ -95,14 +95,14 @@
 
 ## Entity management
 
-> Organizations rely on a variety of data from disparate sources in real
-> time to improve situational awareness. Visualization Suite lets you
-> tailor geospatial mapping of different types of data, or *entities*.
-> For example, you might want to view gunshots only within the past 12
-> hours, instead of all gunshots that have ever been reported. On the
-> other hand, stationary entities, such as buildings and cameras, are
-> persistently visualized as they provide important data points to
-> improve situational awareness.
+Organizations rely on a variety of data from disparate sources in real
+time to improve situational awareness. Visualization Suite lets you
+tailor geospatial mapping of different types of data, or *entities*.
+For example, you might want to view gunshots only within the past 12
+hours, instead of all gunshots that have ever been reported. On the
+other hand, stationary entities, such as buildings and cameras, are
+persistently visualized as they provide important data points to
+improve situational awareness.
 
 ## Data integration
 
