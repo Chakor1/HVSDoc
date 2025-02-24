@@ -1,5 +1,5 @@
-> The guide describes the features of Hitachi Visualization Suite and
-> provides step-by-step instructions for using it.
+The guide describes the features of Hitachi Visualization Suite and
+provides step-by-step instructions for using it.
 
 # Overview
 
@@ -26,7 +26,7 @@ of glass” for geospatial visualization to gain the situational
 awareness required to better respond to problems or even prevent them
 from occurring.
 
-<img src="media/image1.png" style="width:5.4375in;height:3.015in" />
+![](..\HVS\assets\images\UsingVisualizationSuite.png)
 
 ## Cloud and on-premises solutions
 
