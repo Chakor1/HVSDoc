@@ -26,7 +26,7 @@ of glass” for geospatial visualization to gain the situational
 awareness required to better respond to problems or even prevent them
 from occurring.
 
-![](..\HVS\assets\images\UsingVisualizationSuite.png)
+![](../HVS/assets/images/UsingVisualizationSuite.png)
 
 ## Cloud and on-premises solutions
 
