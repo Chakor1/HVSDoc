@@ -107,15 +107,14 @@ PATCH will be available at the same route of PUT verb.
 
 ## Update name, description, and timestamp
 
-The "add" and "replace" operations are interchangeable in this
-scenario because they will update the field to the new value.
+The "add" and "replace" operations are interchangeable in this scenario because they will update the field to the new value.
 
 
 If we start from the simplest entity that we can create:
 
 ```
 {
-	"name": "Test Entity \#1"
+	"name": "Test Entity #1"
 }
 ```
 
@@ -123,7 +122,7 @@ and then we apply this patch operation:
 
 ```
 [
-{ "op": "add", "path": "name", "value": "New name" }
+	{ "op": "add", "path": "name", "value": "New name" }
 ]
 ```
 
@@ -132,7 +131,7 @@ The entity will look like:
 ```
 {
 
-"name": "New Name"
+	"name": "New Name"
 
 }
 ```
@@ -146,11 +145,11 @@ name, description and timestamp fields as specified in the array.
 ```
 [
 
-{ "op": "add", "path": "/name", "value": "New name" },
+	{ "op": "add", "path": "/name", "value": "New name" },
 
-{ "op": "add", "path": "/description", "value": "New description" },
+	{ "op": "add", "path": "/description", "value": "New description" },
 
-{ "op": "add", "path": "/timestamp", "value": "2018-04-18T00:00" }
+	{ "op": "add", "path": "/timestamp", "value": "2018-04-18T00:00" }
 
 ]
 ```
@@ -167,11 +166,11 @@ then adding on tag at a time.
 ```
 [
 
-{ "op": "add", "path": "/tags", "value": \[\] },
+	{ "op": "add", "path": "/tags", "value": \[\] },
 
-{ "op": "add", "path": "/tags/-", "value": "tag1" },
+	{ "op": "add", "path": "/tags/-", "value": "tag1" },
 
-{ "op": "add", "path": "/tags/-", "value": "tag2" }
+	{ "op": "add", "path": "/tags/-", "value": "tag2" }
 
 ]
 ```
@@ -181,7 +180,7 @@ You can directly define the array items like in the following sample:
 ```
 [
 
-{ "op": "add", "path": "/tags", "value": \[tag1", tag2", tag3"\] }
+	{ "op": "add", "path": "/tags", "value": [tag1", tag2", tag3"] }
 
 ] 
 ```
@@ -195,15 +194,15 @@ Initialize location of an entity can be done using the following
 
 		{
 
-		"op": "add",
+			"op": "add",
 
-		"path": "location", 
+			"path": "location", 
 
-		"value":{
+			"value":{
 
-			"type":"Point",
+				"type":"Point",
 
-			"coordinates": [9.2343, 40.23434]
+				"coordinates": [9.2343, 40.23434]
 
 		}
 
@@ -214,72 +213,91 @@ Initialize location of an entity can be done using the following
 
 While update is possible with just
 
-\[
+```
+[
 
-{
+	{
 
-"op": "replace",
+		"op": "replace",
 
-"path": "location/coordinates", "value":\[8.23423, 31.23423\]
+		"path": "location/coordinates",
+        
+        "value":[8.23423, 31.23423]
 
-}
+	}
 
-\]
+] 
+```
 
 ## Update attributes
 
 Attributes can be initialized using the following command:
 
-\[
+```
+[
+
+	{
+
+		"op": "add",
+
+		"path": "attributes", 
+		
+		"value": {
+
+			"key_number_1":{
+            
+            	"label": "Key #1",
+
+				"value":"value1"
+
+			},
+
+			"key_number_2":{
+			
+				"label": "Key #2",
+                
+                "value":true
+
+			},
+
+			"key_number_3":{
+            
+            	"label": "Key #3",
+                "value":{
+
+					"complex_object": true
+
+				}
+
+			}
+
+		}
+
+	}
+
+]
+```
 
 You can replace the value of one of the existing attributes by using
 the following command:
 
-{
+```
+[
 
-"op": "add",
+	{
 
-"path": "attributes", "value": {
+		"op": "replace",
 
-"key_number_1":{ "label": "Key \#1",
->
-"value":"value1"
->
-},
->
-"key_number_2":{ "label": "Key \#2", "value":true
->
-},
->
-"key_number_3":{ "label": "Key \#3", "value":{
->
-"complex_object": true
->
-}
->
-}
+		"path": "attributes/key_number_1/value",
 
-}
+		"value": "new value"
 
-}
+	}
 
-\]
-
-\[
-
-{
-
-"op": "replace",
+]
+```
 
 As described in this issue page,adding a single attribute from scratch
-will not work untill Asp.Net Core 2.1 is released.
-
-"path": "attributes/key_number_1/value",
-
-"value": "new value"
-
-}
-
-\]
+will not work until Asp.Net Core 2.1 is released.
 
 [<u>https://github.com/aspnet/JsonPatch/issues/96</u>](https://github.com/aspnet/JsonPatch/issues/96)
